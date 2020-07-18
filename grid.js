@@ -1,6 +1,6 @@
 class Grid {
 	constructor(width, height) {
-		this.w = 10;
+		this.w = 5;
 		this.cols = width / this.w + 1;
 		this.rows = height / this.w + 1;
 		this.grid = [];
@@ -9,7 +9,6 @@ class Grid {
 
 	fillGrid() {
 		let xoff = 0;
-
 		for (let i = 0; i < this.cols; i++) {
 			let row = [];
 			let yoff = 0;
@@ -22,7 +21,6 @@ class Grid {
 			this.grid[i] = row;
 			xoff += 0.15;
 		}
-
 		this.toff += 0.01;
 	}
 

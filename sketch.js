@@ -1,13 +1,13 @@
 let grid;
 
 function setup() {
-	createCanvas(600, 400);
+	createCanvas(400, 400);
 	grid = new Grid(width, height);
 	grid.fillGrid();
 }
 
 function draw() {
-	background(128);
+	background(0);
 	grid.fillGrid();
 
 	//grid.render();
@@ -81,7 +81,6 @@ function draw() {
 			}
 		}
 	}
-	//noLoop();
 }
 
 const ln = (v1, v2) => {
