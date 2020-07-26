@@ -19,8 +19,7 @@ class Grid {
 			this.grid[i] = row;
 			xoff += 0.15;
 		}
-		// this.toff += 0.01;
-		this.toff += 0.05;
+		this.toff += 0.01;
 	}
 
 	render() {
@@ -38,8 +37,6 @@ class Grid {
 				// 	// stroke(this.grid[i][j] * 255);
 				// }
 
-				//delete1
-				strokeWeight(5);
 				point(i * this.w, j * this.w);
 			}
 		}

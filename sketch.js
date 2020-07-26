@@ -10,7 +10,7 @@ function draw() {
 	background(0);
 	grid.fillGrid();
 
-	grid.render();
+	// grid.render();
 
 	for (let i = 0; i < grid.cols - 1; i++) {
 		for (let j = 0; j < grid.rows - 1; j++) {
@@ -84,10 +84,9 @@ function draw() {
 }
 
 const ln = (v1, v2) => {
-	// stroke(255);
-	// strokeWeight(1);
-	// line(v1.x, v1.y, v2.x, v2.y);
-	console.log("");
+	stroke(255);
+	strokeWeight(1);
+	line(v1.x, v1.y, v2.x, v2.y);
 };
 
 const toBaseTen = (a, b, c, d) => {
