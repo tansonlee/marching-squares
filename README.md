@@ -6,9 +6,13 @@ Made with JavaScript and visualized with the p5.js library
 
 <img src="gif/marching-squares.gif" width="400px">
 
+<br>
+
 Applications for this project:
 
 -   can be modified for procedural cave generation
+
+<br>
 
 This visualization is created with an underlying 3D perlin noise field of values between 0 and 1. Then contours are drawn based on values in the grid.
 
