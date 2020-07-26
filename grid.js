@@ -13,15 +13,14 @@ class Grid {
 			let row = [];
 			let yoff = 0;
 			for (let j = 0; j < this.rows; j++) {
-				// row.push(random(1));
-				// row.push(floor(random() * 2));
 				row.push(noise(xoff, yoff, this.toff));
 				yoff += 0.15;
 			}
 			this.grid[i] = row;
 			xoff += 0.15;
 		}
-		this.toff += 0.01;
+		// this.toff += 0.01;
+		this.toff += 0.05;
 	}
 
 	render() {
@@ -39,6 +38,8 @@ class Grid {
 				// 	// stroke(this.grid[i][j] * 255);
 				// }
 
+				//delete1
+				strokeWeight(5);
 				point(i * this.w, j * this.w);
 			}
 		}
