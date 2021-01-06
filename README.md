@@ -2,6 +2,8 @@
 
 ### Visualization of the marching squares algorithm
 
+Link to hosted project: [Marching Squares](https://tansonlee.github.io/marching-squares/)
+
 Made with JavaScript and visualized with the p5.js library
 
 <img src="assets/marching-squares.gif" width="400px">
